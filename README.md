@@ -21,7 +21,7 @@ Open a folder in VS Code and in the command pallete type:
     task run
 
 Select **Configure Task Runner**, which will open up the *tasks* file for your project.
-Replace the contents of the file with the following code. Make sure you replace the *username* and *password* with your own the *sid* with the one from your *tnsnames* file.
+Replace the contents of the file with the following code. Make sure you replace the *username* and *password* with your own and the *sid* with the one from your *tnsnames* file.
 
     {
 	    "version": "0.1.0",

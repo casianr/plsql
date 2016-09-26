@@ -2,9 +2,16 @@
 	"name": "plsql",
 	"displayName": "PL/SQL",
 	"description": "PL/SQL (Oracle)",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "casian",
 	"icon": "icon.png",
+   "bugs": {
+		"url": "https://github.com/casianr/plsql/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/casianr/plsql.git"
+	},
 	"engines": {
 		"vscode": "^0.10.1"
 	},
