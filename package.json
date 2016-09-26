@@ -1,0 +1,27 @@
+{
+	"name": "plsql",
+	"displayName": "PL/SQL",
+	"description": "PL/SQL (Oracle)",
+	"version": "0.0.1",
+	"publisher": "casian",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "plsql",
+			"aliases": ["PL/SQL", "plsql"],
+			"extensions": [".sql", ".ddl", ".dml", ".pkb", ".pkh"],
+			"configuration": "./plsql.configuration.json"
+		}],
+		"grammars": [{
+			"language": "plsql",
+			"scopeName": "source.plsql.oracle",
+			"path": "./syntaxes/plsql.tmLanguage"
+		}]
+	}
+}
