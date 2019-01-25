@@ -145,19 +145,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(sysdate|%(isopen|found|notfound|rowcount)|commit|rollback|sqlerrm|substr|cast|decode|length|lower|upper)\b</string>
+			<string>(?i)\b(sysdate|%(isopen|found|notfound|rowcount)|commit|rollback|sqlerrm|substr|cast|decode|length|lower|upper|sqlcode|raise)\b</string>
 			<key>name</key>
 			<string>support.function.oracle</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(avg|count|sum|max|min|nvl|trim|to_date|to_char|lpad|ltrim|rpad|rtrim|trunc|to_number)\b</string>
+			<string>(?i)\b(avg|count|sum|max|min|nvl|trim|to_date|to_char|lpad|ltrim|rpad|rtrim|trunc|to_number|chr)\b</string>
 			<key>name</key>
 			<string>support.function.builtin.oracle</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(sql|sqlcode)\b</string>
+			<string>(?i)\b(sql)\b</string>
 			<key>name</key>
 			<string>variable.language.oracle</string>
 		</dict>
