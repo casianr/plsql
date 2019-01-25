@@ -2,7 +2,7 @@
 	"name": "plsql",
 	"displayName": "PL/SQL",
 	"description": "PL/SQL (Oracle)",
-	"version": "0.0.2",
+	"version": "0.0.5",
 	"publisher": "casian",
 	"icon": "icon.png",
    "bugs": {
